@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="vi" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chi tiết tuyển dụng | Xây lắp Cát Tường</title>
+  <meta name="description" content="Mô tả công việc, yêu cầu, quyền lợi và ứng tuyển trực tuyến tại Xây lắp Cát Tường.">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="job" data-nav="careers" class="has-hero">
+<main id="main">
+  <section class="page-hero">
+    <img class="bg" src="assets/img/site-team.jpg" alt="">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Trang chủ</a><span aria-hidden="true">/</span><a href="tuyen-dung.html">Tuyển dụng</a><span aria-hidden="true">/</span><span id="job-crumb"></span></nav>
+      <h1 id="job-title" style="font-size:clamp(38px,5vw,72px)">Tuyển dụng</h1>
+      <p id="job-sub"></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" id="job-detail"></div>
+  </section>
+
+  <section class="section section--alt" id="apply">
+    <div class="wrap split" style="align-items:start">
+      <div class="s-4">
+        <span class="eyebrow">Ứng tuyển</span>
+        <h2>Gửi hồ sơ của bạn</h2>
+        <p>Bộ phận Nhân sự sẽ liên hệ với ứng viên phù hợp trong vòng 7 ngày làm việc.</p>
+        <p class="muted" style="font-size:14px">Thông tin của bạn chỉ dùng cho mục đích tuyển dụng và không được công khai.</p>
+      </div>
+      <div class="s-8">
+        <form class="form-card" data-form="application" novalidate data-success="Ứng tuyển thành công! Cảm ơn bạn đã quan tâm – chúng tôi sẽ liên hệ nếu hồ sơ phù hợp.">
+          <div class="form-grid">
+            <div class="field full"><label for="a-pos">Vị trí ứng tuyển</label><input class="input" id="a-pos" name="position" readonly></div>
+            <div class="field"><label for="a-name">Họ và tên <span class="req">*</span></label><input class="input" id="a-name" name="name" required autocomplete="name" data-min="2"></div>
+            <div class="field"><label for="a-phone">Số điện thoại <span class="req">*</span></label><input class="input" id="a-phone" name="phone" type="tel" required data-validate="phone" autocomplete="tel" inputmode="tel"></div>
+            <div class="field"><label for="a-email">Email <span class="req">*</span></label><input class="input" id="a-email" name="email" type="email" required autocomplete="email"></div>
+            <div class="field"><label for="a-exp">Số năm kinh nghiệm</label>
+              <select class="select" id="a-exp" name="experience"><option value="">Chọn</option><option>Chưa có kinh nghiệm</option><option>Dưới 2 năm</option><option>2 – 5 năm</option><option>Trên 5 năm</option></select></div>
+            <div class="field full">
+              <label for="a-cv">CV đính kèm <span class="req">*</span></label>
+              <label class="file-drop" for="a-cv">
+                <input id="a-cv" name="cv" type="file" accept=".pdf,.doc,.docx" required data-msg="Vui lòng đính kèm CV.">
+                <span><strong>Chọn file</strong> hoặc kéo thả vào đây</span><br><span class="muted" style="font-size:13px">PDF, DOC, DOCX – tối đa 5 MB</span>
+                <div class="file-name" style="margin-top:8px;font-weight:600;color:var(--ink)"></div>
+              </label>
+            </div>
+            <div class="field full"><label for="a-msg">Giới thiệu ngắn</label><textarea class="textarea" id="a-msg" name="message" rows="4"></textarea></div>
+            <div class="hp" aria-hidden="true"><label>Website <input name="website" tabindex="-1" autocomplete="off"></label></div>
+            <div class="field full"><label class="check"><input type="checkbox" name="consent" required data-msg="Vui lòng đồng ý để tiếp tục."> <span>Tôi đồng ý để Cát Tường lưu trữ và xử lý thông tin cá nhân cho mục đích tuyển dụng.</span></label></div>
+          </div>
+          <button class="btn btn--brand" type="submit">Nộp hồ sơ <span data-icon="arrow"></span></button>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
