@@ -407,5 +407,20 @@
   $("#logout").onclick = () => { try { sessionStorage.removeItem(SESSION_KEY); } catch (e) {} location.reload(); };
   $("#menu-btn").onclick = () => $("#side").classList.toggle("is-open");
 
+  /* Xuất toàn bộ nội dung hiện tại thành file data.js để thay file trên GitHub/hosting */
+  $("#export-data").onclick = () => {
+    const js = "/* =========================================================\n" +
+      "   DỮ LIỆU NỘI DUNG WEBSITE – CÔNG TY XÂY LẮP CÁT TƯỜNG\n" +
+      "   Xuất từ trang quản trị lúc " + new Date().toLocaleString("vi-VN") + "\n" +
+      "   Thay file assets/js/data.js bằng file này để mọi người cùng thấy.\n" +
+      "   ========================================================= */\n\n" +
+      "window.CT_DEFAULTS = " + JSON.stringify(S.db, null, 2) + ";\n";
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([js], { type: "text/javascript;charset=utf-8" }));
+    a.download = "data.js";
+    document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+    alert("Đã tải file data.js.\n\nĐể mọi người cùng thấy nội dung mới: vào repo GitHub → thư mục assets/js → mở data.js → bấm biểu tượng ⋯ / Upload files → tải file vừa xuất lên thay thế → Commit changes.\n\nGitHub Pages sẽ cập nhật sau khoảng 1–2 phút.");
+  };
+
   if (me) showApp(); else $("#login").hidden = false;
 })();

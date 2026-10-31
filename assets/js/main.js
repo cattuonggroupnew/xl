@@ -58,10 +58,9 @@
 
   /* ---------- Header ---------- */
   const NAV = [
-    { label: "Giới thiệu", key: "about", children: [
-      { label: "Về Cát Tường", href: "gioi-thieu.html", key: "about" },
-      { label: "Năng lực thi công", href: "nang-luc.html", key: "capability" } ] },
+    { label: "Giới thiệu", href: "gioi-thieu.html", key: "about" },
     { label: "Lĩnh vực", href: "linh-vuc.html", key: "services" },
+    { label: "Năng lực thi công", href: "nang-luc.html", key: "capability" },
     { label: "Dự án", href: "du-an.html", key: "projects" },
     { label: "Hợp tác", href: "hop-tac.html", key: "partners" },
     { label: "Tin tức", href: "tin-tuc.html", key: "news" },

@@ -61,7 +61,7 @@ window.CT_DEFAULTS = {
       summary: "Khu nhà ở xã hội quy mô 94.075 m² với 9 khối nhà và khoảng 1.040 căn hộ. Tòa M đã đưa vào sử dụng, các tòa còn lại đang hoàn thiện.",
       description: "Cát Tường Smart City là dự án trọng điểm tại huyện Yên Phong, tỉnh Bắc Ninh. Công trường được tổ chức thi công cuốn chiếu: hoàn thiện và bàn giao từng khối nhà, song song thi công kết cấu các khối tiếp theo và hạ tầng nội khu. Dãy shophouse 6 tầng 2 mặt tiền dọc trục đường chính đã hoàn thiện mặt ngoài.",
       cover: "assets/img/hero-1.jpg",
-      gallery: ["assets/img/hero-1.jpg", "assets/img/hero-2.jpg", "assets/img/scy-2.jpg", "assets/img/scy-1.jpg", "assets/img/scy-3.jpg", "assets/img/hero-4.jpg", "assets/img/site-pano-1.jpg", "assets/img/site-aerial-2.jpg", "assets/img/scy-formwork.jpg", "assets/img/scy-piling.jpg", "assets/img/scy-6.jpg", "assets/img/scy-render.jpg"],
+      gallery: ["assets/img/hero-1.jpg", "assets/img/scy-blue-1.jpg", "assets/img/scy-blue-2.jpg", "assets/img/scy-blue-3.jpg", "assets/img/scy-aerial.jpg", "assets/img/site-pano-1.jpg", "assets/img/scy-blue-4.jpg", "assets/img/scy-blue-5.jpg", "assets/img/hero-4.jpg", "assets/img/scy-2.jpg", "assets/img/scy-1.jpg", "assets/img/scy-site.jpg", "assets/img/hero-2.jpg", "assets/img/scy-3.jpg", "assets/img/scy-6.jpg", "assets/img/scy-render.jpg"],
       progress: [
         { date: "2019", title: "Khởi công xây dựng", state: "done" },
         { date: "07/2023", title: "Lãnh đạo Chính phủ thăm công trường", state: "done" },
@@ -78,8 +78,8 @@ window.CT_DEFAULTS = {
       facts: { "Loại hình": "Nhà ở xã hội & trung tâm thương mại", "Đã bàn giao": "Cụm tòa D – E" },
       summary: "Dự án nhà ở xã hội đã tổ chức lễ bàn giao cụm tòa D – E cho cư dân; trung tâm thương mại đang được thi công hoàn thiện.",
       description: "Thống Nhất Smart City khởi công năm 2019. Cụm tòa D – E đã được nghiệm thu và bàn giao căn hộ cho cư dân. Hạng mục trung tâm thương mại của dự án đang trong giai đoạn thi công.",
-      cover: "assets/img/tnsc-render.jpg",
-      gallery: ["assets/img/tnsc-render.jpg", "assets/img/tnsc-1.jpg", "assets/img/tnsc-2.jpg", "assets/img/tnsc-handover.jpg", "assets/img/tnsc-handover-2.jpg"],
+      cover: "assets/img/tnsc-real.jpg",
+      gallery: ["assets/img/tnsc-real.jpg", "assets/img/tnsc-render.jpg", "assets/img/tnsc-2.jpg", "assets/img/tnsc-handover.jpg", "assets/img/tnsc-handover-2.jpg"],
       progress: [
         { date: "2019", title: "Khởi công xây dựng", state: "done" },
         { date: "—", title: "Bàn giao căn hộ cụm tòa D – E", state: "done" },
@@ -93,8 +93,8 @@ window.CT_DEFAULTS = {
       facts: { "Số căn hộ": "1.080 căn", "Đã bàn giao": "Tòa N3 – N4" },
       summary: "Dự án 1.080 căn hộ, khởi công năm 2018. Tòa N3 – N4 đã tổ chức lễ bàn giao căn hộ cho khách hàng.",
       description: "Cát Tường Thống Nhất gồm 1.080 căn hộ nhà ở xã hội. Ngày 22/9/2024, dự án vinh dự được lãnh đạo Chính phủ đến thăm và ghi nhận. Căn hộ được bàn giao hoàn thiện nội thất cơ bản theo căn mẫu.",
-      cover: "assets/img/ctn-1.jpg",
-      gallery: ["assets/img/ctn-1.jpg", "assets/img/ctn-render.jpg", "assets/img/ctn-handover.jpg", "assets/img/ctn-int-1.jpg", "assets/img/ctn-int-2.jpg"],
+      cover: "assets/img/ctn-real.jpg",
+      gallery: ["assets/img/ctn-real.jpg", "assets/img/ctn-1.jpg", "assets/img/ctn-render.jpg", "assets/img/ctn-handover.jpg", "assets/img/ctn-int-1.jpg", "assets/img/ctn-int-2.jpg"],
       progress: [
         { date: "2018", title: "Khởi công xây dựng 1.080 căn hộ", state: "done" },
         { date: "22/09/2024", title: "Lãnh đạo Chính phủ thăm dự án", state: "done" },
@@ -108,8 +108,8 @@ window.CT_DEFAULTS = {
       facts: { "Số căn hộ": "1.080 căn", "Hoàn thành": "2018" },
       summary: "Tổ hợp 1.080 căn hộ với vườn cảnh quan trên mái khối đế, khởi công 2016 và bàn giao xong năm 2018.",
       description: "Cát Tường Eco khởi công năm 2016 với quy mô 1.080 căn hộ, hoàn thành và bàn giao năm 2018 – đúng hai năm thi công.",
-      cover: "assets/img/eco-render.jpg",
-      gallery: ["assets/img/eco-render.jpg", "assets/img/eco-2.jpg", "assets/img/eco-3.jpg", "assets/img/eco-int.jpg"],
+      cover: "assets/img/eco-real.jpg",
+      gallery: ["assets/img/eco-real.jpg", "assets/img/eco-render.jpg", "assets/img/eco-2.jpg", "assets/img/eco-3.jpg", "assets/img/eco-int.jpg"],
       progress: [
         { date: "2016", title: "Khởi công 1.080 căn hộ", state: "done" },
         { date: "2018", title: "Bàn giao xong dự án", state: "done" }
@@ -137,8 +137,8 @@ window.CT_DEFAULTS = {
       facts: { "Loại hình": "Tòa nhà hỗn hợp cao tầng" },
       summary: "Tòa nhà cao tầng khởi công năm 2012 – một trong những công trình đầu tiên của Cát Tường.",
       description: "Cát Tường New khởi công năm 2012 cùng với dự án TNT, gồm khối tháp cao tầng và khối đế thương mại.",
-      cover: "assets/img/new-1.jpg",
-      gallery: ["assets/img/new-1.jpg", "assets/img/new-render.jpg", "assets/img/new-2.jpg"],
+      cover: "assets/img/new-fly.jpg",
+      gallery: ["assets/img/new-fly.jpg", "assets/img/new-1.jpg", "assets/img/new-fly-2.jpg", "assets/img/new-render.jpg", "assets/img/new-2.jpg"],
       progress: [
         { date: "2012", title: "Khởi công xây dựng", state: "done" },
         { date: "—", title: "Hoàn thành, đưa vào sử dụng", state: "done" }
@@ -167,13 +167,14 @@ window.CT_DEFAULTS = {
     },
     {
       id: "cat-tuong-korea", name: "Cát Tường Korea",
-      category: "Thương mại – khách sạn", status: "Chuẩn bị triển khai", year: null,
+      category: "Thương mại – khách sạn", status: "Đã hoàn thành", year: null,
       location: "Bắc Ninh", featured: false, hidden: false,
       facts: { "Loại hình": "Khách sạn" },
-      summary: "Công trình khách sạn 11 tầng, đang trong giai đoạn chuẩn bị triển khai.",
+      summary: "Công trình khách sạn 11 tầng đã hoàn thành.",
       description: "Thông tin chi tiết sẽ được cập nhật.",
-      cover: "assets/img/korea-1.jpg", gallery: ["assets/img/korea-1.jpg"],
-      progress: [{ date: "Hiện tại", title: "Chuẩn bị đầu tư", state: "current" }]
+      cover: "assets/img/korea-real-1.jpg",
+      gallery: ["assets/img/korea-real-1.jpg", "assets/img/korea-real-2.jpg", "assets/img/korea-lobby.jpg", "assets/img/korea-restaurant.jpg", "assets/img/korea-room.jpg", "assets/img/korea-1.jpg"],
+      progress: [{ date: "", title: "Hoàn thành, đưa vào sử dụng", state: "done" }]
     },
     {
       id: "vien-duong-lao-cat-tuong", name: "Viện dưỡng lão Cát Tường",
@@ -194,7 +195,7 @@ window.CT_DEFAULTS = {
       category: "Tiến độ dự án", date: "2026-06-30", image: "assets/img/site-pano-2.jpg", hidden: false,
       excerpt: "Các mũi thi công kết cấu, xây trát và vận chuyển vật tư được tổ chức song song để giữ tiến độ tổng của dự án.",
       body: ["Trong tháng 6/2026, Ban chỉ huy công trường tiếp tục tổ chức thi công song song nhiều mũi: kết cấu khung các khối nhà mới, xây trát hoàn thiện và vận chuyển vật tư bằng xe nâng tới từng khu vực.", "Công tác vệ sinh công trường, phân luồng phương tiện và trang bị bảo hộ lao động được kiểm tra hằng ngày, bảo đảm mục tiêu An toàn – Chất lượng – Tiến độ."],
-      gallery: ["assets/img/site-pano-2.jpg", "assets/img/site-bricks.jpg", "assets/img/site-forklift.jpg", "assets/img/site-workers.jpg", "assets/img/site-clean.jpg"] },
+      gallery: ["assets/img/site-pano-2.jpg", "assets/img/site-bricks.jpg", "assets/img/site-workers.jpg", "assets/img/site-clean.jpg"] },
     { id: "year-end-party-2025", title: "Year End Party 2025: nhìn lại một năm cùng nhau xây dựng",
       category: "Văn hóa doanh nghiệp", date: "2025-01-18", image: "assets/img/yep.jpg", hidden: false,
       excerpt: "Toàn thể cán bộ nhân viên cùng nhìn lại chặng đường một năm và vinh danh các tập thể, cá nhân xuất sắc.",
